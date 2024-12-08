@@ -6,7 +6,7 @@
 
 > Um site de portfólio pessoal para apresentar projetos, habilidades, publicações, organizações e informações de contato.
 
-Acesse: [text](https://acaf02.github.io/portfolio/)
+Acesse: [Portfólio](https://acaf02.github.io/portfolio/)
 
 ## 🧰 Tecnologias Utilizadas
 
