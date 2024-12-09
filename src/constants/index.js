@@ -12,8 +12,8 @@ export const EXPERIENCES = [
     role: "Programadora Trainee",
     company: "Compass UOL",
     description: `Minhas responsabilidades incluíram:
-Documentação: Criação completa da documentação técnica do projeto, garantindo clareza e organização para a equipe.
-Desenvolvimento: Participação ativa na programação inicial, utilizando boas práticas e colaborando na estruturação do sistema.`,
+- Documentação: Criação completa da documentação técnica do projeto, garantindo clareza e organização para a equipe.
+- Desenvolvimento: Participação ativa na programação inicial, utilizando boas práticas e colaborando na estruturação do sistema.`,
     technologies: [
       "Node.js",
       "Draw.io",
@@ -89,20 +89,22 @@ export const PUBLICATION = [
   ];
   
 
-export const ORGANIZATION = {
+export const ORGANIZATION = [
+  {
   title: "Diretório Acadêmico Ada Augusta Byron King",
   role: "Tesoureira",
   period: "Junho de 2024 - até o momento",
   description: `
         Atualmente, sou tesoureira e membro ativo do Diretório Acadêmico do curso de Análise e Desenvolvimento de Sistemas do Instituto Federal Farroupilha (IFFAR), onde contribuo para a organização de eventos acadêmicos e apoio aos estudantes. Entre as minhas responsabilidades, destaco:
 
-        - **Gestão financeira:** Como tesoureira, sou responsável pelo controle financeiro das atividades do Diretório Acadêmico, gerenciando os recursos de maneira eficiente para garantir a realização de eventos e iniciativas que beneficiem os alunos.
+        - Gestão financeira: Como tesoureira, sou responsável pelo controle financeiro das atividades do Diretório Acadêmico, gerenciando os recursos de maneira eficiente para garantir a realização de eventos e iniciativas que beneficiem os alunos.
 
-        - **Promoção do curso e eventos acadêmicos:** Ajudo na divulgação do curso e no planejamento de eventos como a Semana Acadêmica, com o objetivo de engajar os alunos e aproximá-los de novas oportunidades de aprendizado e networking.
+        - Promoção do curso e eventos acadêmicos: Ajudo na divulgação do curso e no planejamento de eventos como a Semana Acadêmica, com o objetivo de engajar os alunos e aproximá-los de novas oportunidades de aprendizado e networking.
 
-        - **Apoio aos estudantes:** Facilito a comunicação entre os alunos e a coordenação do curso, buscando sempre melhorar a experiência acadêmica e promover iniciativas que atendam às necessidades dos estudantes.
+        - Apoio aos estudantes: Facilito a comunicação entre os alunos e a coordenação do curso, buscando sempre melhorar a experiência acadêmica e promover iniciativas que atendam às necessidades dos estudantes.
     `,
-};
+}
+]
 
 export const CONTACT = {
   email: "anacarol.alves1@outlook.com",
