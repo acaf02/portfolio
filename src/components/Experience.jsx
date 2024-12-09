@@ -30,7 +30,18 @@ const Experience = () => {
                                     {experience.company}
                                 </span>
                             </h6>
-                            <p className="mb-4 text-neutral-400">{experience.description}</p>
+                            <div className="mb-4 text-neutral-400">
+                                {experience.description.split("\n").map((line, index) => {
+                                    if (line.startsWith("-")) {
+                                        return (
+                                            <ul key={index}>
+                                                <li>{line.replace("-", "-").trim()}</li>
+                                            </ul>
+                                        );
+                                    }
+                                    return <p key={index}>{line}</p>;
+                                })}
+                            </div>
                             <div className="flex flex-wrap">
                                 {experience.technologies.map((tech, index) => (
                                     <span
