@@ -92,17 +92,19 @@ export const PUBLICATION = [
 export const ORGANIZATION = [
   {
   title: "Diretório Acadêmico Ada Augusta Byron King",
-  role: "Tesoureira",
+  role: "Tesoureira e Diretora de Comunicações",
   period: "Junho de 2024 - até o momento",
   description: `
-        Atualmente, sou tesoureira e membro ativo do Diretório Acadêmico do curso de Análise e Desenvolvimento de Sistemas do Instituto Federal Farroupilha (IFFAR), onde contribuo para a organização de eventos acadêmicos e apoio aos estudantes. Entre as minhas responsabilidades, destaco:
+        Atualmente, sou Tesoureira e Diretora de Comunicação, além de membro ativo do Diretório Acadêmico do curso de Análise e Desenvolvimento de Sistemas do Instituto Federal Farroupilha (IFFAR). Minhas responsabilidades incluem:
 
         - Gestão financeira: Como tesoureira, sou responsável pelo controle financeiro das atividades do Diretório Acadêmico, gerenciando os recursos de maneira eficiente para garantir a realização de eventos e iniciativas que beneficiem os alunos.
 
-        - Promoção do curso e eventos acadêmicos: Ajudo na divulgação do curso e no planejamento de eventos como a Semana Acadêmica, com o objetivo de engajar os alunos e aproximá-los de novas oportunidades de aprendizado e networking.
+        - Comunicação e promoção do curso: No papel de Diretora de Comunicação, lidero a criação e execução de estratégias de comunicação para divulgar as atividades do Diretório Acadêmico, promover o curso e fortalecer a identidade do grupo. Isso inclui a gestão de redes sociais, elaboração de materiais de divulgação e organização de campanhas que ampliem o alcance das nossas iniciativas.
 
-        - Apoio aos estudantes: Facilito a comunicação entre os alunos e a coordenação do curso, buscando sempre melhorar a experiência acadêmica e promover iniciativas que atendam às necessidades dos estudantes.
-    `,
+        - Planejamento e organização de eventos acadêmicos: Contribuo ativamente para o planejamento e a realização de eventos como a Semana Acadêmica, workshops e palestras. Meu trabalho envolve tanto o suporte logístico quanto a comunicação com palestrantes, parceiros e participantes, visando o sucesso dos eventos e o engajamento da comunidade acadêmica.
+
+        - Apoio aos estudantes: Facilito a comunicação entre os alunos e a coordenação do curso, atuando como um canal de diálogo para identificar e atender às necessidades dos estudantes. Também colaboro na criação de iniciativas que melhorem a experiência acadêmica e promovam o desenvolvimento pessoal e profissional dos alunos.
+`,
 }
 ]
 
