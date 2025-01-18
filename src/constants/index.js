@@ -8,6 +8,22 @@ export const ABOUT_TEXT = `Sou estudante do curso de Análise e Desenvolvimento 
 
 export const EXPERIENCES = [
   {
+    year: "Dezembro/2024 - até o momento",
+    role: "Estágio",
+    company: "FRANCISCO DAS CHAGAS FERREIRA DE OLIVEIRA JUNIOR",
+    description: `Desenvolvimento de um sistema web para a loja Lux Revestimentos`,
+    technologies: [
+      "React.js",
+      "React Router",
+      "React Toastify",
+      "JavaScript",
+      "HTML",
+      "Tailwind CSS",
+      "Axios",
+      "Design de Software",
+    ],
+  },
+  {
     year: "Junho/2024 - Novembro/2024",
     role: "Programadora Trainee",
     company: "Compass UOL",
@@ -105,7 +121,29 @@ export const ORGANIZATION = [
 
         - Apoio aos estudantes: Facilito a comunicação entre os alunos e a coordenação do curso, atuando como um canal de diálogo para identificar e atender às necessidades dos estudantes. Também colaboro na criação de iniciativas que melhorem a experiência acadêmica e promovam o desenvolvimento pessoal e profissional dos alunos.
 `,
-}
+},
+];
+
+export const ACADEMY = [
+  {
+    title: 'Análise e Desenvolvimento de Sistemas',
+    where: 'Instituto Federal Farroupilha - Campus Alegrete',
+    period: 'Fevereiro de 2022 - Janeiro de 2025',
+    description: 'Como estudante de Análise e Desenvolvimento de Sistemas, desenvolvo habilidades em programação, modelagem de banco de dados e engenharia de software. O curso proporciona uma visão prática e teórica das etapas de criação de sistemas, abrangendo desde a análise de requisitos até o desenvolvimento de software. Através de projetos e atividades práticas, estou me aperfeiçoando em tecnologias atuais e metodologias ágeis, ampliando meu conhecimento e habilidades no campo.' +
+    'Durante minha trajetória acadêmica, participei em projetos de extensão, com destaque para o desenvolvimento de um aplicativo para a Guarda Municipal de Alegrete. Além disso, participei na MEPT, onde publiquei trabalhos e participei da competição BugCup. No diretório acadêmico, contribuo para a divulgação do curso, a organização de eventos, como a Semana Acadêmica de ADS, e ofereço suporte aos alunos, promovendo o engajamento estudantil e a troca de conhecimentos.'
+  },
+  {
+    title: "Tecnologias e Inovações Web",
+    where: "FAVENI",
+    period: "Janeiro de 2025 - até o momento",
+    description: "Pós graduação em tecnologias e inovações web."
+  },
+  {
+    title: "Inglês Avançado",
+    where: "Senac",
+    period: "Agosto de 2016 - Junho de 2020",
+    description: "Iniciei minha jornada no aprendizado de idiomas, com o objetivo de expandir meus horizontes profissionais e pessoais, melhorando a comunicação em inglês para atuar no mercado global."
+  }
 ]
 
 export const CONTACT = {
