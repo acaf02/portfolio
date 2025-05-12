@@ -90,6 +90,27 @@ export const PROJECTS = [
       "A ideia desenvolvida aborda a criação de NFTs por fidelidade, com a temática de um petshop onde a cada 10 banhos a pessoa recebe um NFT personalizado do seu próprio pet gerado por esta aplicação, a obtenção do NFT pode trazer diversos benefícios como descontos nos próximos banhos e a participação em promoções especiais!",
     technologies: ["Node.js", "Docker"],
   },
+  {
+    title: "Lumus Solem",
+    image: project4,
+    description:
+      "Esse projeto contém o código-fonte do front-end do e-commerce Lumus Solem, uma marca dedicada à criação de velas aromáticas.",
+    technologies: ["React", "Tailwind", "Vite", "Node.js", "Express.js", "MongoDB", "JWT", "Cloudinary", "Vercel"],
+  },
+  {
+    title: "Site Instituicional de Petshop",
+    image: project5,
+    description:
+      "Este projeto é uma aplicação moderna que resolve o problema da ausência de uma presença digital profissional para pequenas marcas artesanais de produtos aromáticos. Ele utiliza tecnologias web modernas e oferece uma solução escalável para exposição e venda de velas artesanais. O foco é proporcionar uma vitrine virtual elegante, funcional e responsiva para a marca Lumus Solem.",
+    technologies: ["Node.js", "React", "Tailwind CSS", "Express", "Vercel", "Vite"],
+  },
+  {
+    title: "Minha Livraria",
+    image: project6,
+    description:
+      "Ele apresenta minha coleção pessoal de livros físicos junto com citações memoráveis de cada um.",
+    technologies: ["HTML5", "CSS3", "Bootstrap", "Node.js", "jQuery", "Webpack"],
+  },
 ];
 
 export const PUBLICATION = [
@@ -151,7 +172,7 @@ export const ACADEMY = [
   {
     title: "Tecnologias e Inovações Web",
     where: "FAVENI",
-    period: "Janeiro de 2025 - até o momento",
+    period: "Janeiro de 2025 - Agosto de 2026",
     description: "Pós graduação em tecnologias e inovações web."
   },
   {
