@@ -14,13 +14,16 @@ export const EXPERIENCES = [
     description: `Desenvolvimento de um sistema web para a loja Lux Revestimentos e Acabamentos`,
     technologies: [
       "React.js",
-      "React Router",
-      "React Toastify",
-      "JavaScript",
-      "HTML",
+      "Node.js",
+      "Express.js",
       "Tailwind CSS",
       "Axios",
       "Design de Software",
+      "MongoDB",
+      "Vercel",
+      "Hostinguer",
+      "Vite",
+      "JWT",
     ],
   },
   {
@@ -74,14 +77,16 @@ export const PROJECTS = [
       "Ajax",
       "PHP",
       "MySQL",
+      "XAMPP"
     ],
   },
   {
     title: "Portfolio Website",
     image: project2,
+    repo:,
     description:
       "Um site de portfólio pessoal para apresentar projetos, habilidades, publicações, organizações e informações de contato.",
-    technologies: ["HTML", "CSS", "React", "JavaScript", "Tailwind", "Node.js"],
+    technologies: ["React", "JavaScript", "Tailwind", "Node.js"],
   },
   {
     title: "Projeto Final do Time A1",
@@ -93,6 +98,7 @@ export const PROJECTS = [
   {
     title: "Lumus Solem",
     image: project4,
+    repo:,
     description:
       "Esse projeto contém o código-fonte do front-end do e-commerce Lumus Solem, uma marca dedicada à criação de velas aromáticas.",
     technologies: ["React", "Tailwind", "Vite", "Node.js", "Express.js", "MongoDB", "JWT", "Cloudinary", "Vercel"],
@@ -100,13 +106,15 @@ export const PROJECTS = [
   {
     title: "Site Instituicional de Petshop",
     image: project5,
+    repo:,
     description:
       "Este projeto é uma aplicação moderna que resolve o problema da ausência de uma presença digital profissional para pequenas marcas artesanais de produtos aromáticos. Ele utiliza tecnologias web modernas e oferece uma solução escalável para exposição e venda de velas artesanais. O foco é proporcionar uma vitrine virtual elegante, funcional e responsiva para a marca Lumus Solem.",
     technologies: ["Node.js", "React", "Tailwind CSS", "Express", "Vercel", "Vite"],
   },
   {
-    title: "Minha Livraria",
+    title: "My Library",
     image: project6,
+    repo:,
     description:
       "Ele apresenta minha coleção pessoal de livros físicos junto com citações memoráveis de cada um.",
     technologies: ["HTML5", "CSS3", "Bootstrap", "Node.js", "jQuery", "Webpack"],
