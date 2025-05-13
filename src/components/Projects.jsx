@@ -32,6 +32,7 @@ const Projects = () => {
                             transition={{ duration: 1 }}
                             className="w-full max-w-xl lg:w-3/4">
                             <h6 className="mb-2 font-semibold">{project.title}</h6>
+                            <p className="mb-4 text-neutral-400 text-justify">Repositório:{project.url}</p>
                             <p className="mb-4 text-neutral-400 text-justify">{project.description}</p>
                             <div className="flex flex-wrap">
                                 {project.technologies.map((tech, index) => (
