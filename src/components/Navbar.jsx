@@ -10,13 +10,25 @@ const Navbar = () => {
         <img className="mx-2 h-12" src={logo} alt="logo" />
       </div>
       <div className="m-9 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/ana-carolina-alves-farias-8a998b266/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/ana-carolina-alves-farias-8a998b266/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedin />
         </a>
-        <a href="https://www.github.com/acaf02 " target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.github.com/acaf02 "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub />
         </a>
-        <a href="https://www.instagram.com/acaf02/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.instagram.com/acaf02/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaInstagram />
         </a>
       </div>
