@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@coreui/coreui": "^5.2.0",
+    "@vercel/analytics": "^1.5.0",
     "framer-motion": "^11.13.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -22,7 +23,7 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
-     "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9.25.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.2.0",
