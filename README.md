@@ -2,7 +2,7 @@
 
 ## 🛠️ Sobre o Projeto
 
-![GIF](portifolio.gif)
+![image](imagem.png)
 
 > Um site de portfólio pessoal para apresentar projetos, habilidades, publicações, organizações e informações de contato.
 
