@@ -1,10 +1,15 @@
 import project1 from "../assets/projects/project1.jpg";
 import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.jpg";
+import project4 from "../assets/projects/project4.png";
+import project5 from "../assets/projects/project5.png";
+import project6 from "../assets/projects/project6.png";
+import project7 from "../assets/projects/project7.png";
+import "../i18n";
 
 export const HERO_CONTENT = `Sou uma desenvolvedora apaixonada por criar aplicações web robustas e escaláveis. Com experiência prática acumulada durante minha formação, tenho aprimorado minhas habilidades em tecnologias de front-end, como React, HTML, CSS, JS, Bootstrap e back-end, incluindo Node.js, PHP, Java, PostgreSQL e MySQL. Meu objetivo é utilizar minha expertise para criar soluções inovadoras que impulsionem o crescimento dos negócios e ofereçam experiências excepcionais aos usuários.`;
 
-export const ABOUT_TEXT = `Formada em Análise e Desenvolvimento de Sistemas pelo Instituto Federal Farroupilha - Campus Alegrete, atualmente fazendo pós graduação de Tecnologias e Inovações Web na instituição FAVENI. Com experiência em diversas tecnologias, como Java, Node.js, JavaScript, HTML, CSS, PHP e Bootstrap, desenvolvi uma base sólida tanto no front-end quanto no back-end. Também tenho conhecimento em bancos de dados PostgreSQL e MySQL, além de metodologias ágeis. Recentemente, tenho me aprofundado em React e Spring Boot, com o objetivo de explorar novas possibilidades no desenvolvimento de software e aprimorar minhas habilidades técnicas. Fora dos estudos, gosto de ler, assistir séries e filmes, e explorar novas tecnologias.`;
+export const ABOUT_TEXT = `Formada em Análise e Desenvolvimento de Sistemas pelo Instituto Federal Farroupilha - Campus Alegrete, atualmente fazendo pós graduação de Tecnologias e Inovações Web na instituição FAVENI. Com experiência em diversas tecnologias, como Java, Node.js, JavaScript, HTML, CSS, PHP e Bootstrap, desenvolvi uma base sólida tanto no front-end quanto no back-end. Também tenho conhecimento em bancos de dados PostgreSQL e MySQL, além de metodologias ágeis. Recentemente, tenho me aprofundado em React e Tailwind, com o objetivo de explorar novas possibilidades no desenvolvimento de software e aprimorar minhas habilidades técnicas. Fora dos estudos, gosto de ler, assistir séries e filmes, e explorar novas tecnologias.`;
 
 export const EXPERIENCES = [
   {
@@ -100,7 +105,7 @@ export const PROJECTS = [
   },
   {
     title: "Lumus Solem",
-    image: project3,
+    image: project4,
     repo: "https://github.com/acaf02/lumus-solem",
     description:
       "Esse projeto contém o código-fonte do front-end do e-commerce Lumus Solem, uma marca dedicada à criação de velas aromáticas.",
@@ -118,10 +123,10 @@ export const PROJECTS = [
   },
   {
     title: "Site Instituicional de Petshop",
-    image: project3,
+    image: project5,
     repo: "https://github.com/acaf02/petshop-institutional-site",
     description:
-      "Este projeto é uma aplicação moderna que resolve o problema da ausência de uma presença digital profissional para pequenas marcas artesanais de produtos aromáticos. Ele utiliza tecnologias web modernas e oferece uma solução escalável para exposição e venda de velas artesanais. O foco é proporcionar uma vitrine virtual elegante, funcional e responsiva para a marca Lumus Solem.",
+      "Este projeto fornece uma presença online profissional e fácil de usar para pet shops.",
     technologies: [
       "Node.js",
       "React",
@@ -133,7 +138,7 @@ export const PROJECTS = [
   },
   {
     title: "My Library",
-    image: project3,
+    image: project6,
     repo: "https://github.com/acaf02/MyLibrary",
     description:
       "Ele apresenta minha coleção pessoal de livros físicos junto com citações memoráveis de cada um.",
@@ -145,6 +150,13 @@ export const PROJECTS = [
       "jQuery",
       "Webpack",
     ],
+  },
+  {
+    title: "Rock, Paper e Scissors",
+    image: project7,
+    repo: "https://github.com/acaf02/rock-paper-scissors",
+    description: "Uma simples implementação do jogo Pedra, Papel e Tesoura",
+    technologies: ["HTML5", "CSS3", "Pyton"],
   },
 ];
 
