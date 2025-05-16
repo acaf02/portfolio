@@ -1,0 +1,9 @@
+{
+  "app": {
+    "portuguese": "PT-BR",
+    "english": "EN-US",
+    "title": "Internacionalização de uma aplicação React",
+    "subtitle": "Aprendendo a instalar e configurar a biblioteca de internacionalização",
+    "select_language": "Selecione um idioma"
+  }
+}
