@@ -1,7 +1,14 @@
-import { PUBLICATION } from "../constants";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import * as pt from "../constants/index.PT-BR";
+import * as en from "../constants/index.EN-US";
 
 const Publications = () => {
+  const { i18n } = useTranslation();
+
+  // Seleciona o conteúdo de acordo com o idioma atual
+  const content = i18n.language === "en-US" ? en : pt;
+
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h1
@@ -10,10 +17,10 @@ const Publications = () => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Publicações
+        {i18n.language === "en-US" ? "Publications" : "Publicações"}
       </motion.h1>
       <div>
-        {PUBLICATION.map((publication, index) => (
+        {content.PUBLICATION.map((publication, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -35,7 +42,9 @@ const Publications = () => {
                   rel="noopener noreferrer"
                   className="rounded bg-neutral-900 px-3 py-2 text-sm font-medium text-purple-400 hover:underline"
                 >
-                  Ver publicação
+                  {i18n.language === "en-US"
+                    ? "View article"
+                    : "Ver publicação"}
                 </a>
               </div>
             </motion.div>

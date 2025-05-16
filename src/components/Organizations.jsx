@@ -1,8 +1,13 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import { ORGANIZATION } from "../constants";
+import { useTranslation } from "react-i18next";
+import { ORGANIZATION } from "../constants/index.PT-BR";
 import { motion } from "framer-motion";
+import * as pt from "../constants/index.PT-BR";
+import * as en from "../constants/index.EN-US";
+
+// Imagens para os carrosséis
 import SA1 from "../assets/organization/1.jpg";
 import SA2 from "../assets/organization/2.jpg";
 import SA3 from "../assets/organization/3.jpg";
@@ -20,7 +25,33 @@ import Divulgacao4 from "../assets/organization/Divulgacao4.jpg";
 import Divulgacao5 from "../assets/organization/Divulgacao5.jpg";
 import Divulgacao6 from "../assets/organization/Divulgacao6.jpg";
 
+const ImageCarousel = ({ images, legend }) => (
+  <div style={{ maxWidth: "400px", margin: "0 auto" }}>
+    <Carousel
+      showArrows={true}
+      showThumbs={false}
+      showStatus={false}
+      infiniteLoop
+      autoPlay
+      interval={3000}
+      transitionTime={500}
+    >
+      {images.map((image, index) => (
+        <div key={index}>
+          <img src={image} alt={`Slide ${index + 1}`} />
+          <p className="legend">{legend}</p>
+        </div>
+      ))}
+    </Carousel>
+  </div>
+);
+
 const Organizations = () => {
+  const { i18n } = useTranslation();
+
+  // Seleciona conteúdo de acordo com o idioma atual
+  const content = i18n.language === "en-US" ? en : pt;
+
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h1
@@ -29,11 +60,11 @@ const Organizations = () => {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl"
       >
-        Organizações
+        {i18n.language === "en-US" ? "Organizations" : "Organizações"}
       </motion.h1>
 
       <div>
-        {ORGANIZATION.map((organization, index) => (
+        {content.ORGANIZATION.map((organization, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -67,60 +98,30 @@ const Organizations = () => {
         ))}
       </div>
 
+      {/* Carrossel para as imagens da Semana Acadêmica */}
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
         className="flex flex-wrap justify-center space-x-8"
       >
-        <div style={{ maxWidth: "400px", margin: "0 auto" }}>
-          <Carousel
-            showArrows={true}
-            showThumbs={false}
-            showStatus={false}
-            infiniteLoop
-            autoPlay
-            interval={3000}
-            transitionTime={500}
-          >
-            {[SA1, SA2, SA3, SA4, SA5, SA6, SA7, SA8, SA9, SA10].map(
-              (image, index) => (
-                <div key={index}>
-                  <img src={image} alt={`Slide ${index + 1}`} />
-                  <p className="legend">XIII Semana Acadêmica da ADS</p>
-                </div>
-              )
-            )}
-          </Carousel>
-        </div>
+        <ImageCarousel
+          images={[SA1, SA2, SA3, SA4, SA5, SA6, SA7, SA8, SA9, SA10]}
+          legend="XIII Semana Acadêmica da ADS"
+        />
 
-        <div style={{ maxWidth: "400px", margin: "0 auto" }}>
-          <Carousel
-            showArrows={true}
-            showThumbs={false}
-            showStatus={false}
-            infiniteLoop
-            autoPlay
-            interval={3000}
-            transitionTime={500}
-          >
-            {[
-              Divulgacao1,
-              Divulgacao2,
-              Divulgacao3,
-              Divulgacao4,
-              Divulgacao5,
-              Divulgacao6,
-            ].map((image, index) => (
-              <div key={index}>
-                <img src={image} alt={`Slide ${index + 1}`} />
-                <p className="legend">
-                  Divulgação do curso na 43° Feira do Livro de Alegrete
-                </p>
-              </div>
-            ))}
-          </Carousel>
-        </div>
+        {/* Carrossel para as imagens da Divulgação do Curso */}
+        <ImageCarousel
+          images={[
+            Divulgacao1,
+            Divulgacao2,
+            Divulgacao3,
+            Divulgacao4,
+            Divulgacao5,
+            Divulgacao6,
+          ]}
+          legend="Divulgação do curso na 43° Feira do Livro de Alegrete"
+        />
       </motion.div>
     </div>
   );

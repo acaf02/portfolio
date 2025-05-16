@@ -11,6 +11,9 @@ import { FaGitAlt } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiSpringboot } from "react-icons/si";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import * as pt from "../constants/index.PT-BR";
+import * as en from "../constants/index.EN-US";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -26,6 +29,10 @@ const iconVariants = (duration) => ({
 });
 
 const Technologies = () => {
+  const { i18n } = useTranslation();
+
+  // Seleciona conteúdo de acordo com o idioma atual
+  const content = i18n.language === "en-US" ? en : pt;
   return (
     <div className="border-b border-neutral-800 pb-24">
       <motion.h1
@@ -34,7 +41,7 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl"
       >
-        Tecnologias
+        {i18n.language === "en-US" ? "Technologies" : "Tecnologias"}
       </motion.h1>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}

@@ -1,7 +1,14 @@
-import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import * as pt from "../constants/index.PT-BR";
+import * as en from "../constants/index.EN-US";
 
 const Projects = () => {
+  const { i18n } = useTranslation();
+
+  // Seleciona o conteúdo de acordo com o idioma atual
+  const content = i18n.language === "en-US" ? en : pt;
+
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h1
@@ -10,10 +17,10 @@ const Projects = () => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Projetos
+        {i18n.language === "en-US" ? "Projects" : "Projetos"}
       </motion.h1>
       <div>
-        {PROJECTS.map((project, index) => (
+        {content.PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -38,7 +45,7 @@ const Projects = () => {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400 text-justify">
-                Repositório:{project.url}
+                Repositório: {project.repo}
               </p>
               <p className="mb-4 text-neutral-400 text-justify">
                 {project.description}
