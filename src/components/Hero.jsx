@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import profilePic from "../assets/AnaProfile.jpg";
+import profilePic from "../assets/profile.jpg";
 import * as pt from "../constants/index.PT-BR";
 import * as en from "../constants/index.EN-US";
 

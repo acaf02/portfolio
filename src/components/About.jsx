@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about.jpeg";
+import aboutImg from "../assets/about.jpg";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import * as pt from "../constants/index.PT-BR";
