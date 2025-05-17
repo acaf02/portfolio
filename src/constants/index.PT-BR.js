@@ -211,17 +211,17 @@ Fui Tesoureira e Diretora de Comunicação do Diretório Acadêmico do curso de 
 
 export const ACADEMY = [
   {
+    title: "Tecnologias e Inovações Web",
+    where: "FAVENI",
+    period: "Janeiro de 2025 - Agosto de 2026",
+    description: "Pós graduação em tecnologias e inovações web.",
+  },
+  {
     title: "Análise e Desenvolvimento de Sistemas",
     where: "Instituto Federal Farroupilha - Campus Alegrete",
     period: "Fevereiro de 2022 - Janeiro de 2025",
     description:
       "Como estudante de Análise e Desenvolvimento de Sistemas, desenvolvo habilidades em programação, modelagem de banco de dados e engenharia de software. O curso proporciona uma visão prática e teórica das etapas de criação de sistemas, abrangendo desde a análise de requisitos até o desenvolvimento de software. Através de projetos e atividades práticas, estou me aperfeiçoando em tecnologias atuais e metodologias ágeis, ampliando meu conhecimento e habilidades no campo.",
-  },
-  {
-    title: "Tecnologias e Inovações Web",
-    where: "FAVENI",
-    period: "Janeiro de 2025 - Agosto de 2026",
-    description: "Pós graduação em tecnologias e inovações web.",
   },
   {
     title: "Inglês Avançado",

@@ -210,17 +210,17 @@ I was Treasurer and Communications Director for the Academic Board of the System
 
 export const ACADEMY = [
   {
+    title: "Web Technologies and Innovations",
+    where: "FAVENI",
+    period: "January 2025 - August 2026",
+    description: "Postgraduate studies in web technologies and innovations.",
+  },
+  {
     title: "Analysis and Development of Systems",
     where: "Instituto Federal Farroupilha - Campus Alegrete",
     period: "February 2022 - January 2025",
     description:
       "As a student of Analysis and Systems Development, I am developing skills in programming, database modeling, and software engineering. The course provides a practical and theoretical view of the stages of system creation, covering everything from requirements analysis to software development. Through projects and practical activities, I am improving my skills in current technologies and agile methodologies, broadening my knowledge and abilities in the field.",
-  },
-  {
-    title: "Web Technologies and Innovations",
-    where: "FAVENI",
-    period: "January 2025 - August 2026",
-    description: "Postgraduate studies in web technologies and innovations.",
   },
   {
     title: "Advanced English",
