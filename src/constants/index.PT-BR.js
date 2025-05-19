@@ -176,8 +176,7 @@ export const PUBLICATION = [
     publication: "XV Mostra da Educação Profissional e Tecnológica",
     url: "https://arandu.iffarroupilha.edu.br/handle/itemid/540",
     description:
-      "Página: 788" +
-      "Resumo do artigo: Os estoques desempenham um papel importante na gestão empresarial, com o gerenciamento eficaz dos estoques ajuda a evitar o excesso e a escassez de produtos, assim contribuindo com a otimização do investimento e maximizando a eficiência dos meios internos da empresa. A partir desse contexto, esse trabalho propõe o desenvolvimento de um software personalizado para o controle dos insumos alimentícios do refeitório Instituto Federal Farroupilha - Campus Alegrete, visando aprimorar e otimizar o controle e a administração de todos os produtos disponíveis. Para alcançar esses objetivos, utilizou-se a metodologia de desenvolvimento de software baseada no modelo em cascata, assegurando que cada etapa seja concluída antes do início da próxima.",
+      "Os estoques desempenham um papel importante na gestão empresarial, com o gerenciamento eficaz dos estoques ajuda a evitar o excesso e a escassez de produtos, assim contribuindo com a otimização do investimento e maximizando a eficiência dos meios internos da empresa. A partir desse contexto, esse trabalho propõe o desenvolvimento de um software personalizado para o controle dos insumos alimentícios do refeitório Instituto Federal Farroupilha - Campus Alegrete, visando aprimorar e otimizar o controle e a administração de todos os produtos disponíveis. Para alcançar esses objetivos, utilizou-se a metodologia de desenvolvimento de software baseada no modelo em cascata, assegurando que cada etapa seja concluída antes do início da próxima.",
   },
   {
     title:
@@ -185,8 +184,7 @@ export const PUBLICATION = [
     publication: "XV Mostra da Educação Profissional e Tecnológica",
     url: "https://arandu.iffarroupilha.edu.br/handle/itemid/540",
     description:
-      "Página: 785" +
-      "Resumo do artigo: A gestão eficiente de produtos químicos em laboratórios é essencial para garantir a segurança, o controle e a utilização adequada desses materiais. Nesse contexto, este trabalho tem como objetivo desenvolver um software de gestão de estoque de produtos químicos específico para os Laboratórios de Química do Instituto Federal Farroupilha. Este software será desenvolvido baseado no método em cascata de Sommerville e com a realização desse trabalho espera-se otimizar o registro e remoção de produtos químicos do estoque, exibir o status de utilização dos produtos químicos já existentes na instituição e expedir um relatório com o status e estoque de todos os produtos disponíveis atualmente.",
+      "A gestão eficiente de produtos químicos em laboratórios é essencial para garantir a segurança, o controle e a utilização adequada desses materiais. Nesse contexto, este trabalho tem como objetivo desenvolver um software de gestão de estoque de produtos químicos específico para os Laboratórios de Química do Instituto Federal Farroupilha. Este software será desenvolvido baseado no método em cascata de Sommerville e com a realização desse trabalho espera-se otimizar o registro e remoção de produtos químicos do estoque, exibir o status de utilização dos produtos químicos já existentes na instituição e expedir um relatório com o status e estoque de todos os produtos disponíveis atualmente.",
   },
 ];
 

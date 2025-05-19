@@ -174,18 +174,14 @@ export const PUBLICATION = [
       "StockManager: a software for controlling food stocks in the IFFAR cafeteria - Alegrete Campus",
     publication: "XV Mostra da Educação Profissional e Tecnológica",
     url: "https://arandu.iffarroupilha.edu.br/handle/itemid/540",
-    description:
-      "Page: 788" +
-      "Abstract: Stocks play an important role in business management. Effective stock management helps to avoid excess and shortages of products, thus contributing to the optimization of investment and maximizing the efficiency of the company's internal resources. Based on this context, this paper proposes the development of customized software for the control of food inputs in the Instituto Federal Farroupilha cafeteria - Alegrete Campus, aiming to improve and optimize the control and administration of all available products. To achieve these objectives, a software development methodology based on the waterfall model was used, ensuring that each stage is completed before the next one begins.",
+    description: "Stocks play an important role in business management. Effective stock management helps to avoid excess and shortages of products, thus contributing to the optimization of investment and maximizing the efficiency of the company's internal resources. Based on this context, this paper proposes the development of customized software for the control of food inputs in the Instituto Federal Farroupilha cafeteria - Alegrete Campus, aiming to improve and optimize the control and administration of all available products. To achieve these objectives, a software development methodology based on the waterfall model was used, ensuring that each stage is completed before the next one begins.",
   },
   {
     title:
       "CHEMICALL: Chemical product management system for laboratories of Federal Institutes, a case study IFFarroupilha",
     publication: "XV Mostra da Educação Profissional e Tecnológica",
     url: "https://arandu.iffarroupilha.edu.br/handle/itemid/540",
-    description:
-      "Page: 785" +
-      "Abstract: Efficient management of chemical products in laboratories is essential to ensure the safety, control and proper use of these materials. In this context, this work aims to develop a specific chemical inventory management software for the Chemistry Laboratories of the Instituto Federal Farroupilha. This software will be developed based on the Sommerville cascade method and with the completion of this work it is expected to optimize the registration and removal of chemical products from the inventory, display the usage status of chemical products already existing in the institution and issue a report with the status and inventory of all currently available products.",
+    description: "Efficient management of chemical products in laboratories is essential to ensure the safety, control and proper use of these materials. In this context, this work aims to develop a specific chemical inventory management software for the Chemistry Laboratories of the Instituto Federal Farroupilha. This software will be developed based on the Sommerville cascade method and with the completion of this work it is expected to optimize the registration and removal of chemical products from the inventory, display the usage status of chemical products already existing in the institution and issue a report with the status and inventory of all currently available products.",
   },
 ];
 
