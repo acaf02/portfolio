@@ -1,19 +1,24 @@
 # Portfólio
 
-## 🛠️ Sobre o Projeto
+## 🌐 Read the README in Portuguese
+
+If you prefer to read the README in Portuguese, [click here](README-pt.md).
+
+## 🛠️ About the Project
 
 ![image](imagem.png)
 
-> Um site de portfólio pessoal para apresentar projetos, habilidades, publicações, organizações e informações de contato.
+> A personal portfolio website to showcase projects, education, skills, publications, organizations, and contact information.
 
-Acesse: [Portfólio](https://acaf02-portfolio.vercel.app/)
+Access: [Portfólio](https://acaf02-portfolio.vercel.app/)
 
-## 🧰 Tecnologias Utilizadas
+## 🧰 Technologies Used
 
-Este projeto utiliza as seguintes tecnologias:
+This project uses the following technologies:
 
 - **Frontend**: React.js, Tailwind CSS, JavaScript
+- **Deploy**: Vercel
 
-## 📜 Licença
+## 📜 License
 
-Este projeto está sob a Licença MIT. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
